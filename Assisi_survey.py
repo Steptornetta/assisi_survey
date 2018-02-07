@@ -8,7 +8,9 @@ This is a Flask app which just allows development server and a debugger. Flask w
 Created by: Stephen Tornetta
 '''
 
-from flask import Flask, request, redirect
+from flask import Flask
+#from flask import redirect
+from flask import request
 import twilio.twiml
 app = Flask(__name__)
 
@@ -18,6 +20,7 @@ admin_list = {
 
 user_list = []
 user_info = []
+print("This program is working.")
    
 @app.route("/", methods=['GET', 'POST'])  
 def survey():
