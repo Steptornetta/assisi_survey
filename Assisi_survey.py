@@ -16,6 +16,7 @@ app = Flask(__name__)
 
 admin_list = {
    "+16109089405": "Stephen Tornetta",
+   "+16105258676": "Vicki Tornetta",
 }
 
 user_list = []
